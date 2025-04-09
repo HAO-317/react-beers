@@ -1,0 +1,39 @@
+:root {
+  --beer-gold: gold; 
+  --beer-brown: #3c2f2f; 
+  --beer-light: #fff4e6; 
+  --beer-dark: #1a1a1a; 
+  --shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: auto;
+  height: auto;
+  font-family: 'Arial', sans-serif;
+  background-color: var(--beer-dark);
+  color: var(--beer-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1, h2, h3 {
+  color: var(--beer-gold);
+}
+
+a {
+  text-decoration: none;
+  color: var(--beer-gold);
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--beer-light);
+}

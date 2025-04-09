@@ -1,0 +1,38 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width:70%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  background-color: rgba(60, 47, 47, 0.7); 
+  box-shadow: var(--shadow);
+  z-index: 1000;
+}
+
+.navbar-logo {
+  height: 60px;
+  transition: transform 0.3s ease;
+}
+
+.navbar-logo:hover {
+  transform: scale(1.2); 
+  filter: drop-shadow(2px 2px 4px gold);
+}
+
+.navbar-link {
+  text-align: end;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: var(--beer-gold);
+  color: gold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-link:hover {
+  background-color: var(--beer-light);
+
+}

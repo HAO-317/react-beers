@@ -1,0 +1,45 @@
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0.3)), url('../assets/img/bg-beer.jpg'); 
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
+}
+
+.home-title {
+  font-size: 3rem;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+  margin-bottom: 40px;
+  color: gold;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 20px;
+  color: gold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.home-button {
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: var(--beer-gold);
+  color: var(--beer-dark);
+  border-radius: 25px;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.home-button:hover {
+  transform: scale(1.15);
+  background-color: rgba(255, 217, 0, 0.5);
+  color: rgba(111, 0, 255, 0.75);
+  text-shadow: none;
+  
+}
